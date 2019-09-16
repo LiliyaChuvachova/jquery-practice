@@ -1,0 +1,20 @@
+table{
+	border-collapse: collapse;
+	width: 500px;
+	text-align: center;
+}
+
+th, tr, td {
+	border: 1px solid #000;
+}
+
+#add {
+	border: 1px solid blue;
+	width: 100px;
+	min-height: 30px;
+	margin: 10px;
+	border-radius: 5px;
+}
+.del{
+	border: 1px solid #fff;
+}
