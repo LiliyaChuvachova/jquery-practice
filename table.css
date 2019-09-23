@@ -10,13 +10,10 @@ td {
 	border: 1px solid #000;
 }
 
-#add {
+#add, #remove {
+	min-width: 70px;
 	border: 1px solid blue;
 	min-height: 30px;
 	margin: 10px;
 	border-radius: 5px;
-}
-
-.del {
-	border: 1px solid #fff;
 }
