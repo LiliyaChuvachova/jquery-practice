@@ -21,6 +21,7 @@ $(document).ready(function () {
       $('.controls').parent().addClass('del');
     } else {
       $('.controls input:checkbox').prop('checked', false);
+      $('.controls').parent().removeClass('del');
     }
   });
 
